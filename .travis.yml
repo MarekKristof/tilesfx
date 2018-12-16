@@ -6,7 +6,7 @@ addons:
   sonarcloud:
     organization: "marekkristof-github" # the key of the org you chose at step #3
     token:
-      secure: "bd52d4a4fb9ad5a289aa9cf56076c277b0bc0b3c" # encrypted value of your token
+      secure: SONAR_TOKEN
 
 
 
