@@ -6,7 +6,13 @@ addons:
   sonarcloud:
     organization: "marekkristof-github" # the key of the org you chose at step #3
     token:
-      secure: 99be4d84ca885aa2202509483943b80e9a07041b # encrypted value of your token
+      secure: "df65e93b0fb9e97b5a913a3566771813602134cc" # encrypted value of your token
+
+
+jdk:
+      - oraclejdk8
+
+
 script:
 # other script steps might be done before running the actual analysis
 - sonar-scanner
