@@ -5,6 +5,8 @@ dist: trusty
 addons:
   sonarcloud:
     organization: "marekkristof-github"
+    token:
+      secure: SONAR_TOKEN
 
 
 
