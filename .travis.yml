@@ -4,9 +4,7 @@ dist: trusty
 
 addons:
   sonarcloud:
-    organization: "marekkristof-github" # the key of the org you chose at step #3
-    token:
-      secure: SONAR_TOKEN
+    organization: "marekkristof-github"
 
 
 
