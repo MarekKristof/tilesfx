@@ -1,0 +1,12 @@
+language: java
+
+dist: trusty
+
+addons:
+  sonarcloud:
+    organization: "marekkristof-github" # the key of the org you chose at step #3
+    token:
+      secure: 99be4d84ca885aa2202509483943b80e9a07041b # encrypted value of your token
+script:
+# other script steps might be done before running the actual analysis
+- sonar-scanner
