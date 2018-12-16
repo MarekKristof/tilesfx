@@ -9,9 +9,6 @@ addons:
       secure: "df65e93b0fb9e97b5a913a3566771813602134cc" # encrypted value of your token
 
 
-jdk:
-      - oraclejdk8
-
 
 script:
 # other script steps might be done before running the actual analysis
